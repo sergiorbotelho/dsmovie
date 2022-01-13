@@ -5,8 +5,8 @@ function MovieCard() {
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://www.themoviedb.org/t/p/w220_and_h330_face/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg",
+        title: "Homem-Aranha: Sem Volta Para Casa ",
         count: 2,
         score: 4.5
     };
@@ -21,7 +21,7 @@ function MovieCard() {
                 <Link to={`/form/${movie.id}`}>
                     <div className="btn btn-primary dsmovie-btn">Avaliar</div>
                 </Link>
-                
+
 
             </div>
         </div>
